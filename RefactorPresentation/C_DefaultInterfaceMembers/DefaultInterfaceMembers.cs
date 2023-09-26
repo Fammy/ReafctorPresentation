@@ -21,6 +21,7 @@ public abstract class Animal : IAbstractAnimal
 public class Cow : Animal
 {
     public override string Name => "Cow";
+    public override int Feet => 4;
 
     [Fact]
     public void AnimalTest()

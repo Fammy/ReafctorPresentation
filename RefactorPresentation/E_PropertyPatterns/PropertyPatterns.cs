@@ -30,7 +30,7 @@ public class PropertyPatterns
 
     public bool IsFourLeggedMooCow(IDefaultAnimal animal)
     {
-        return animal is MooCow and { Feet: 4 };
+        return animal is MooCow { Feet: 4 };
     }
 
     public bool StartsWith123(int[] range)

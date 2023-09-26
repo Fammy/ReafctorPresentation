@@ -26,6 +26,12 @@ public class NewAndWithExpressions
 
     internal Counter CopyCounter(Counter counter)
     {
+        /*return new Counter
+        {
+            Name = counter.Name,
+            Value = counter.Value
+        };*/
+
         return counter with { };
     }
 
